@@ -20,6 +20,9 @@ export default {
          poppins: ["poppins", "sans-serif"]
        },
     },
+     backgroundImage: {
+        'hero-pattern': "url('./src/assets/mall.jpg')",
+      },
      screens: {
       xs: "480px",
       ss: "620px",
