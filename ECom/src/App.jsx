@@ -1,12 +1,18 @@
 import React from 'react';
+import {Hero, Category, Products, Inspiration, Arrangement, Footer} from './components/index'
 import './index.css'
 
 function App() {
 
   return (
-    <>
-   <h1 className='text-8xl text-blue-950 bg-red-950 p-10'>Hello Gking</h1>
-    </>
+  <>
+   <Hero />
+   <Category />
+   <Products />
+   <Inspiration />
+   <Arrangement />
+   <Footer />
+  </>
   )
 }
 
