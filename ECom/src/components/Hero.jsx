@@ -3,13 +3,13 @@ import Button from './Button';
 
 const Hero = () => (
   <section className="w-full h-[80vh]">
-    <div className={`bg-hero-pattern bg-cover bg-center h-[100%]`}>
-      <div className='absolute top-1/2 left-1/2 transfrom bg-yellow-700 '>
-        <h4>New Arrival</h4>
-        <h2>
+    <div className={`bg-hero-pattern bg-cover bg-center h-[100%] rounded-lg`}>
+      <div className='absolute top-[20%] right-10 transfrom bg-gray-400  w-[500px] px-8 py-8  rounded-lg'>
+        <h4 className='font-poppins font-semibold text-[16px] '>New Arrival</h4>
+        <h2 className='font-poppins font-bold text-yellow-700 text-[28px]'>
           Discover Our <br /> New Collection
         </h2>
-        <p>
+        <p className='font-poppins font-normal text-[14px] mb-6 mt-3'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ui elit failure. luctus nec
           ullomcorper motttis.
         </p>
