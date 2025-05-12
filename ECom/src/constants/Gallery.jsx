@@ -4,73 +4,78 @@ import React from 'react';
 export const category = [
   {
     id:1,
-    img: "../assets/mealplace.jpg",
+    img: "../src/assets/mealplace1.jpg",
     title: "Dinig"
   },
    {
     id:2,
-    img: "../assets/bedroom.jpg",
+    img: "../src/assets/bedroom.jpg",
     title: "Living"
   },
    {
     id:3,
-    img: "../assets/restplace.jpg",
+    img: "../src/assets/restplace.jpg",
     title: "Bedroom"
   }
 ];
 
-// export const products = [
-//    {
-//     img: salon,
-//     title: "Syitherine",
-//     subtitle: "Stylish cafe ehair",
-//     price: 2500.000,
-//     delPrice: 3600.000
-//   },
-//   {
-//     img: salon1,
-//     title: "Leviosa",
-//     subtitle: "Stylish cafe ehair",
-//     price: 2500.000,
-//   },
-//   {
-//     img: salon2,
-//     title: "Lolito",
-//     subtitle: "Luxury big safe",
-//     price: 2500.000,
-//     elPrice: 14000
-//   },
-//   {
-//     img: salon3,
-//     title: "Respira",
-//     subtitle: "outdoor bar table and stool",
-//     price: 2500.000,
-//   },
-//   {
-//     img: salon4,
-//     title: "Grifo",
-//     subtitle: "Might lamp",
-//     price: 1500.000,
-//   },
-//   {
-//     img: mealplace1,
-//     title: "Muggo",
-//     subtitle: "Small mug",
-//     price: 150.000,
-//   },
-//   {
-//     img: salon2,
-//     title: "Pingky",
-//     subtitle: "Cute beal set",
-//     price: 7000.000,
-//     delPrice: 14000.000
-//   },
-//   {
-//     img: salon3,
-//     title: "Potty",
-//     subtitle: "Minimalist flower pot",
-//     price: 500.000,
-//   }
-// ]
+export const products = [
+   {
+    img: "../src/assets/bedroom1.jpg",
+    title: "Syitherine",
+    subtitle: "Stylish cafe ehair",
+    price: 2500.000,
+    delPrice: 3600.000
+  },
+  {
+    img: "../src/assets/mall.jpg",
+    title: "Leviosa",
+    subtitle: "Stylish cafe ehair",
+    price: 2500.000,
+
+  },
+  {
+    img: "../src/assets/salon.jpg",
+    title: "Lolito",
+    subtitle: "Luxury big safe",
+    price: 2500.000,
+    delPrice: 14000
+  },
+  {
+    img: "../src/assets/salon1.jpg",
+    title: "Respira",
+    subtitle: "outdoor bar table and stool",
+    price: 2500.000,
+
+  },
+  {
+    img: "../src/assets/salon2.jpg",
+    title: "Grifo",
+    subtitle: "Might lamp",
+    price: 1500.000,
+
+  },
+  {
+    img: "../src/assets/salon3.jpg",
+    title: "Muggo",
+    subtitle: "Small mug",
+    price: 150.000,
+
+  },
+  {
+    img: "../src/assets/salon4.jpg",
+    title: "Pingky",
+    subtitle: "Cute beal set",
+    price: 7000.000,
+    delPrice: 14000.000
+  },
+  {
+    img: "../src/assets/bedroom1.jpg",
+    title: "Potty",
+    subtitle: "Minimalist flower pot",
+    price: 500.000,
+
+  }
+]
 
 // export const inspiration = [bedroom1, barber, mall]
