@@ -79,23 +79,23 @@ export const products = [
 ]
 
 export const inspiration = [
- {
+  {
     id:1,
     img: "../src/assets/mealplace1.jpg",
     title: "meal place"
   },
-   {
+  {
     id:2,
     img: "../src/assets/bedroom.jpg",
     title: "bedroom"
   },
-   {
+  {
     id:3,
     img: "../src/assets/restplace.jpg",
     title: "rest place"
   },
-     {
-    id:3,
+  {
+    id:4,
     img: "../src/assets/salon.jpg",
     title: "guest rest place"
   }
