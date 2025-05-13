@@ -100,3 +100,19 @@ export const inspiration = [
     title: "guest rest place"
   }
 ]
+
+export const arrangement = [
+  {
+    val : {id: 1,
+            img: "../src/assets/mealplace1.jpg",
+            img1: "../src/assets/salon.jpg",
+            img2: "../src/assets/bedroom.jpg",
+            img3: "../src/assets/restplace.jpg",
+            img4: "../src/assets/bedroom1.jpg",
+            img5: "../src/assets/salon3.jpg",
+            img6: "../src/assets/salon4.jpg",
+            img7: "../src/assets/salon2.jpg",
+            img9: "../src/assets/mall.jpg"
+          }
+  }
+]

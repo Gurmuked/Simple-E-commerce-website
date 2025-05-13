@@ -3,6 +3,8 @@ import Button from './Button';
 import { inspiration } from '../constants/Gallery';
 import { FaArrowRightLong } from "react-icons/fa6";
 
+
+
 const Inspiration = () => {
   const [currentPage, setCurrentPage] = useState(1); // Current page state
   const itemsPerPage = 1; // Number of items per page
@@ -29,6 +31,8 @@ const Inspiration = () => {
       setCurrentPage(currentPage - 1);
     }
   };
+
+
 
   return (
     <section className='w-[100%] mx-auto'>
@@ -59,6 +63,16 @@ const Inspiration = () => {
             ))
           }
            
+                   {/* Dot Pagination
+          <div className='flex justify-center mt-4'>
+            {Array.from({ length: totalPages }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentPage(index + 1)}
+                className={`w-4 h-4 mx-1 rounded-full ${currentPage === index + 1 ? 'bg-yellow-500' : 'bg-gray-300'}`}
+              />
+            ))}
+          </div> */}
           <div className='flex justify-center h-8 mt-4 mb-2'>
             <button
               onClick={handlePrevious}
@@ -81,5 +95,6 @@ const Inspiration = () => {
     </section>
   );
 };
+
 
 export default Inspiration;
