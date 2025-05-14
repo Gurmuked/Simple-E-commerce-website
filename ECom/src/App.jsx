@@ -1,11 +1,12 @@
 import React from 'react';
-import {Hero, Category, Products, Inspiration, Arrangement, Footer} from './components/index'
+import {Navbar, Hero, Category, Products, Inspiration, Arrangement, Footer} from './constants/index'
 import './index.css'
 
 function App() {
 
   return (
   <>
+  <Navbar />
    <Hero />
    <Category />
    <Products />

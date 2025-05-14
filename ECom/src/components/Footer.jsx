@@ -2,7 +2,7 @@ import React from 'react'
 
  const Footer = () => (
     <section className='w-[100%] mx-auto  flex flex-col justify-center items-start border-t-2 border-gray'>
-      <div className='w-[90%] mx-auto  flex flex-row justify-center items-start text-cnter mb-20 mt-6 '>
+      <div className='w-[90%] mx-auto  flex flex-row justify-center items-start text-cnter mb-10 mt-6 '>
         <div className='w-[25%] pl-8 leading-10'>
           <h4 className='font-poppins font-bold text-[24px] mb-8'>Funiro</h4>
           <p className='font-poppins font-normal text-[16px] text-gray-700'>400 university suite 200 coral <br /> Gables, <br /> Fl 33134 USA </p>
@@ -36,7 +36,7 @@ import React from 'react'
       </div>
     </div>
 
-      <p className='w-[90%] font-poppins font-normal text-[18px] text-gray-700 mx-auto pl-8 my-5'>
+      <p className='w-[85%] font-poppins font-normal text-[18px] text-gray-700 mx-auto pl-2 pt-4 my-5 border-t-2 border-gray'>
         2023 Furino. All rights reserved
       </p>
 
