@@ -4,24 +4,24 @@ import React from 'react';
 export const category = [
   {
     id:1,
-    img: "../src/assets/mealplace1.jpg",
+    img: "../src/assets/catimg1.png",
     title: "Dinig"
   },
    {
     id:2,
-    img: "../src/assets/bedroom.jpg",
+    img: "../src/assets/catimg2.png",
     title: "Living"
   },
    {
     id:3,
-    img: "../src/assets/restplace.jpg",
+    img: "../src/assets/catimg3.png",
     title: "Bedroom"
   }
 ];
 
 export const products = [
    {
-    img: "../src/assets/bedroom1.jpg",
+    img: "../src/assets/proimg1.png",
     title: "Syitherine",
     subtitle: "Stylish cafe ehair",
     price: 2500.000,
@@ -35,42 +35,42 @@ export const products = [
 
   },
   {
-    img: "../src/assets/salon.jpg",
+    img: "../src/assets/proimg3.png",
     title: "Lolito",
     subtitle: "Luxury big safe",
     price: 2500.000,
     delPrice: 14000
   },
   {
-    img: "../src/assets/salon1.jpg",
+    img: "../src/assets/proimg4.png",
     title: "Respira",
     subtitle: "outdoor bar table and stool",
     price: 2500.000,
 
   },
   {
-    img: "../src/assets/salon2.jpg",
+    img: "../src/assets/proimg5.png",
     title: "Grifo",
     subtitle: "Might lamp",
     price: 1500.000,
 
   },
   {
-    img: "../src/assets/salon3.jpg",
+    img: "../src/assets/proimg6.png",
     title: "Muggo",
     subtitle: "Small mug",
     price: 150.000,
 
   },
   {
-    img: "../src/assets/salon4.jpg",
+    img: "../src/assets/proimg7.png",
     title: "Pingky",
     subtitle: "Cute beal set",
     price: 7000.000,
     delPrice: 14000.000
   },
   {
-    img: "../src/assets/bedroom1.jpg",
+    img: "../src/assets/proimg8.png",
     title: "Potty",
     subtitle: "Minimalist flower pot",
     price: 500.000,
@@ -81,7 +81,7 @@ export const products = [
 export const inspiration = [
   {
     id:1,
-    img: "../src/assets/mealplace1.jpg",
+    img: "../src/assets/insp2.png",
     title: "meal place"
   },
   {
@@ -104,15 +104,15 @@ export const inspiration = [
 export const arrangement = [
   {
     val : {id: 1,
-            img: "../src/assets/mealplace1.jpg",
-            img1: "../src/assets/salon.jpg",
-            img2: "../src/assets/bedroom.jpg",
-            img3: "../src/assets/restplace.jpg",
-            img4: "../src/assets/bedroom1.jpg",
-            img5: "../src/assets/salon3.jpg",
-            img6: "../src/assets/salon4.jpg",
-            img7: "../src/assets/salon2.jpg",
-            img9: "../src/assets/mall.jpg"
+            img: "../src/assets/arrimg1.png",
+            img1: "../src/assets/arrimg2.png",
+            img2: "../src/assets/arrimg3.png",
+            img3: "../src/assets/arrimg4.png",
+            img4: "../src/assets/arrimg5.png",
+            img5: "../src/assets/arrimg6.png",
+            img6: "../src/assets/arrimg7.png",
+            img7: "../src/assets/arrimg8.png",
+            img9: "../src/assets/arrimg9.png"
           }
   }
 ]

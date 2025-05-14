@@ -21,7 +21,7 @@ export default {
        },
     },
      backgroundImage: {
-        'hero-pattern': "url('./src/assets/mall.jpg')",
+        'hero-pattern': "url('./src/assets/heroimg.jpg')",
       },
      screens: {
       xs: "480px",

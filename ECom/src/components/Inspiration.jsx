@@ -47,7 +47,7 @@ const Inspiration = () => {
           <Button value="Explore More" style="bg-yellow-600 text-white" />
         </div>
         <div className='w-[30%] rounded-lg relative mx-6 px-2 py-2'>
-          <img src='../src/assets/bedroom.jpg' alt="inner peace" className='w-[100%] h-[400px] rounded-lg' />
+          <img src='../src/assets/insp1.png' alt="inner peace" className='w-[100%] h-[400px] rounded-lg' />
           <div className='absolute bottom-6 left-11 bg-white bg-opacity-80 py-2 px-4 pr-4 z-[10]'>
             <p className='font-poppins font-normal text-[14px]'>01 ----- Rest Room</p>
             <h4 className='font-poppins font-bold text-[24px]'>Inner peace</h4>
