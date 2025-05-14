@@ -36,7 +36,7 @@ const Inspiration = () => {
 
   return (
     <section className='w-[100%] mx-auto'>
-      <div className='flex flex-row w-[100%] flex-wrap justify-center items-center bg-gray-100 py-10 '>
+      <div className='flex flex-row w-[100%] flex-wrap justify-center items-center bg-[251 248 243] py-10 '>
         <div className=' flex flex-col w-[30%] items-center text-center px-4 py-2 '>
           <h3 className='font-poppins font-bold text-[32px] text-start '>
             <span>50+</span> Beautiful rooms inspiration
