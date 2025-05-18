@@ -22,7 +22,7 @@ export default {
        },
     },
      backgroundImage: {
-        'hero-pattern': "url('./src/assets/heroimg.jpg')",
+        'hero-pattern': "url('../src/assets/heroimg.jpg')",
       },
      screens: {
       xs: "480px",

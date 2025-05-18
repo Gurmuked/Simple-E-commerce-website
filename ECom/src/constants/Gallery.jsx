@@ -5,7 +5,7 @@ export const category = [
   {
     id:1,
     img: "../src/assets/catimg1.png",
-    title: "Dinig"
+    title: "Dining"
   },
    {
     id:2,
@@ -19,7 +19,7 @@ export const category = [
   }
 ];
 
-export const products = [
+export const product = [
    {
     img: "../src/assets/proimg1.png",
     title: "Syitherine",
@@ -28,7 +28,7 @@ export const products = [
     delPrice: 3600.000
   },
   {
-    img: "../src/assets/mall.jpg",
+    img: "../src/assets/bath.png",
     title: "Leviosa",
     subtitle: "Stylish cafe ehair",
     price: 2500.000,
@@ -86,17 +86,17 @@ export const inspiration = [
   },
   {
     id:2,
-    img: "../src/assets/bedroom.jpg",
+    img: "../src/assets/arrimg1.jpg",
     title: "bedroom"
   },
   {
     id:3,
-    img: "../src/assets/restplace.jpg",
+    img: "../src/assets/arrimg2.jpg",
     title: "rest place"
   },
   {
     id:4,
-    img: "../src/assets/salon.jpg",
+    img: "../src/assets/arrimg3.jpg",
     title: "guest rest place"
   }
 ]
@@ -114,5 +114,36 @@ export const arrangement = [
             img7: "../src/assets/arrimg8.png",
             img9: "../src/assets/arrimg9.png"
           }
+  }
+]
+
+export const ShopProducts = [
+   {
+    img: "../src/assets/proimg1.png",
+    title: "Syitherine",
+    subtitle: "Stylish cafe ehair",
+    price: 2500.000,
+    delPrice: 3600.000
+  },
+  {
+    img: "../src/assets/bath.png",
+    title: "Leviosa",
+    subtitle: "Stylish cafe ehair",
+    price: 2500.000,
+
+  },
+  {
+    img: "../src/assets/proimg3.png",
+    title: "Lolito",
+    subtitle: "Luxury big safe",
+    price: 2500.000,
+    delPrice: 14000
+  },
+  {
+    img: "../src/assets/proimg4.png",
+    title: "Respira",
+    subtitle: "outdoor bar table and stool",
+    price: 2500.000,
+
   }
 ]

@@ -1,10 +1,10 @@
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import Category from '../components/Category';
-import Products from '../components/Products';
-import Inspiration from '../components/Inspiration';
-import Arrangement from '../components/Arrangement';
-import Footer from '../components/Footer';
+import Navbar from '../components/Home/Navbar';
+import Hero from '../components/Home/Hero';
+import Category from '../components/Home/Category';
+import Products from '../components/Home/Products';
+import Inspiration from '../components/Home/Inspiration';
+import Arrangement from '../components/Home/Arrangement';
+import Footer from '../components/Home/Footer';
 
 export {
   Navbar,

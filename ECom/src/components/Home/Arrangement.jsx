@@ -1,5 +1,5 @@
 import React from 'react'
-import {arrangement} from '../constants/Gallery';
+import {arrangement} from '../../constants/Gallery';
 
 const Arrangement = () =>(
     <section className='flex flex-col w-[100%] justify-center items-center mt-16 mb-20 '>
