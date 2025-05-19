@@ -1,5 +1,5 @@
 
-import { category } from '../../constants/Gallery';
+import { category } from '../constants/Data';
 
 const Category = () =>(
     <section className='mx-16 flex flex-col justify-center items-center'>

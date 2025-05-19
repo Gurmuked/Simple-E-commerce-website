@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom';
 import { BsPersonExclamation } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import { CiHeart } from "react-icons/ci";
@@ -24,10 +25,18 @@ const Navbar = () =>{
       </div>
       <div className='w-[30%] hidden xs:flex justify-center items-center'>
         <ul className='w-[100%] flex justify-between items-center'>
-          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer' >Home</li>
-          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer'>Shop</li>
-          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer'>About</li>
-          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer'>Contact</li>
+          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer' >
+            <Link to="/">Home</Link>
+          </li>
+          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer'>
+            <Link to="/Shop">Shop</Link>
+          </li>
+          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer'>
+            About
+          </li>
+          <li className='font-poppins font-normal text-[20px] text-black cursor-pointer'>
+            Contact
+          </li>
         </ul>
       </div>
       <div  className='w-[20%] hidden  xs:flex justify-center items-center'>
@@ -47,10 +56,12 @@ const Navbar = () =>{
           isMenuOpen ? 'block' : 'hidden'} `}>
       <div className='relative w-[100%] flex flex-col justify-center items-center leading-10 mt-10'>
         <ul className='w-[100%] flex flex-col justify-between items-center leading-10'>
-          <li className='font-poppins font-md text-[28px] text-white cursor-pointer mb-4' >Home</li>
+          <li className='font-poppins font-md text-[28px] text-white cursor-pointer mb-4' >
+            <Link to="/">Home</Link>
+          </li>
           <li className='font-poppins font-md text-[28px] text-white cursor-pointer mb-4'>
-            Shop
-            </li>
+            <Link to="/Shop">Shop</Link>
+          </li>
           <li className='font-poppins font-md text-[28px] text-white cursor-pointer mb-4'>About</li>
           <li className='font-poppins font-md text-[28px] text-white cursor-pointer mb-4'>Contact</li>
         </ul>

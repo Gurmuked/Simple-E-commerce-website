@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Button from './Button';
-import { inspiration } from '../../constants/Gallery';
+import { inspiration } from '../constants/Data';
 import { FaArrowRightLong } from "react-icons/fa6";
 
 

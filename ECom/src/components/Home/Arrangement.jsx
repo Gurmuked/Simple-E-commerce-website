@@ -1,5 +1,5 @@
 import React from 'react'
-import {arrangement} from '../../constants/Gallery';
+import {arrangement} from '../constants/Data';
 
 const Arrangement = () =>(
     <section className='flex flex-col w-[100%] justify-center items-center mt-16 mb-20 '>
@@ -9,7 +9,7 @@ const Arrangement = () =>(
       </div>
 
       {arrangement.map(({val}) => (
-        <div className='flex flex-row justify-center items-center w-[98%] h-[500px]'>
+        <div key={val.id} className='flex flex-row justify-center items-center w-[98%] h-[500px]'>
 
           <div className='w-[35%] h-[500px] flex flex-col justify-center items-center'>
             <div className='w-[100%] h-[100%] flex flex-row justify-center items-end mb-4'>

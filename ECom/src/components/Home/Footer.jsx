@@ -1,7 +1,7 @@
 import React from 'react'
 
- const Footer = () => (
-    <section className='w-[100%] mx-auto  flex flex-col justify-center items-start border-t-2 border-gray'>
+ const Footer = ({border}) => (
+    <section className={`w-[100%] mx-auto  flex flex-col justify-center items-start ${border !== "1" ? 'border-t-2 border-gray' : " "}`}>
       <div className='w-[90%] mx-auto  flex flex-row justify-center items-start text-cnter mb-10 mt-6 '>
         <div className='w-[25%] pl-8 leading-10'>
           <h4 className='font-poppins font-bold text-[24px] mb-8'>Funiro</h4>

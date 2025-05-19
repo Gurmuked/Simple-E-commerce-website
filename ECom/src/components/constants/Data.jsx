@@ -1,5 +1,3 @@
-import React from 'react';
-//import { barber, bedroom, bedroom1, mall, mealplace, mealplace1, restplace, salon, salon1, salon2, salon3, salon4 } from '../assets';
 
 export const category = [
   {
@@ -21,6 +19,7 @@ export const category = [
 
 export const product = [
    {
+    id:1,
     img: "../src/assets/proimg1.png",
     title: "Syitherine",
     subtitle: "Stylish cafe ehair",
@@ -28,6 +27,7 @@ export const product = [
     delPrice: 3600.000
   },
   {
+    id:2,
     img: "../src/assets/bath.png",
     title: "Leviosa",
     subtitle: "Stylish cafe ehair",
@@ -35,6 +35,7 @@ export const product = [
 
   },
   {
+    id:3,
     img: "../src/assets/proimg3.png",
     title: "Lolito",
     subtitle: "Luxury big safe",
@@ -42,6 +43,7 @@ export const product = [
     delPrice: 14000
   },
   {
+    id:4,
     img: "../src/assets/proimg4.png",
     title: "Respira",
     subtitle: "outdoor bar table and stool",
@@ -49,6 +51,7 @@ export const product = [
 
   },
   {
+    id:5,
     img: "../src/assets/proimg5.png",
     title: "Grifo",
     subtitle: "Might lamp",
@@ -56,6 +59,7 @@ export const product = [
 
   },
   {
+    id:6,
     img: "../src/assets/proimg6.png",
     title: "Muggo",
     subtitle: "Small mug",
@@ -63,6 +67,7 @@ export const product = [
 
   },
   {
+    id:7,
     img: "../src/assets/proimg7.png",
     title: "Pingky",
     subtitle: "Cute beal set",
@@ -70,6 +75,7 @@ export const product = [
     delPrice: 14000.000
   },
   {
+    id:8,
     img: "../src/assets/proimg8.png",
     title: "Potty",
     subtitle: "Minimalist flower pot",
@@ -86,39 +92,41 @@ export const inspiration = [
   },
   {
     id:2,
-    img: "../src/assets/arrimg1.jpg",
+    img: "../src/assets/arrimg1.png",
     title: "bedroom"
   },
   {
     id:3,
-    img: "../src/assets/arrimg2.jpg",
+    img: "../src/assets/arrimg2.png",
     title: "rest place"
   },
   {
     id:4,
-    img: "../src/assets/arrimg3.jpg",
+    img: "../src/assets/arrimg3.png",
     title: "guest rest place"
   }
 ]
 
 export const arrangement = [
   {
-    val : {id: 1,
-            img: "../src/assets/arrimg1.png",
-            img1: "../src/assets/arrimg2.png",
-            img2: "../src/assets/arrimg3.png",
-            img3: "../src/assets/arrimg4.png",
-            img4: "../src/assets/arrimg5.png",
-            img5: "../src/assets/arrimg6.png",
-            img6: "../src/assets/arrimg7.png",
-            img7: "../src/assets/arrimg8.png",
-            img9: "../src/assets/arrimg9.png"
-          }
+  val:{
+      id: 1,
+      img: "../src/assets/arrimg1.png",
+      img1: "../src/assets/arrimg2.png",
+      img2: "../src/assets/arrimg3.png",
+      img3: "../src/assets/arrimg4.png",
+      img4: "../src/assets/arrimg5.png",
+      img5: "../src/assets/arrimg6.png",
+      img6: "../src/assets/arrimg7.png",
+      img7: "../src/assets/arrimg8.png",
+      img9: "../src/assets/arrimg9.png"
+    }
   }
 ]
 
 export const ShopProducts = [
    {
+    id:1,
     img: "../src/assets/proimg1.png",
     title: "Syitherine",
     subtitle: "Stylish cafe ehair",
@@ -126,6 +134,7 @@ export const ShopProducts = [
     delPrice: 3600.000
   },
   {
+    id:2,
     img: "../src/assets/bath.png",
     title: "Leviosa",
     subtitle: "Stylish cafe ehair",
@@ -133,6 +142,7 @@ export const ShopProducts = [
 
   },
   {
+    id:3,
     img: "../src/assets/proimg3.png",
     title: "Lolito",
     subtitle: "Luxury big safe",
@@ -140,6 +150,7 @@ export const ShopProducts = [
     delPrice: 14000
   },
   {
+    id:4,
     img: "../src/assets/proimg4.png",
     title: "Respira",
     subtitle: "outdoor bar table and stool",

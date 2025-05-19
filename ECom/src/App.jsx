@@ -1,22 +1,17 @@
-import React from 'react';
-import {Navbar, Hero, Category, Products, Inspiration, Arrangement, Footer} from './constants/index'
-import Shop from './components/Shop/Shop.jsx'
-import './index.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home/Home';
+import Shop from './components/Shop/Shop';
+// ...other imports
 
 function App() {
-
   return (
-  <>
-   <Navbar />
-   <Hero />
-   <Category />
-   <Products />
-   <Inspiration />
-   <Arrangement />
-   <Footer />
-   <Shop />
-  </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Shop" element={<Shop />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
