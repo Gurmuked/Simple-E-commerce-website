@@ -3,6 +3,33 @@ import { LiaShippingFastSolid } from "react-icons/lia";
 import { MdSupportAgent } from "react-icons/md";
 import { HiOutlineBadgeCheck } from "react-icons/hi";
 
+import { BsPersonExclamation } from "react-icons/bs";
+import { BiSearch } from "react-icons/bi";
+import { CiHeart } from "react-icons/ci";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { RiMenu3Fill } from "react-icons/ri";
+
+
+export const nav = [ "Home", "Shop", "About", "Contact" ]
+export const navs =[
+  {
+    icon: <BsPersonExclamation className='w-10 h-auto my-4 cursor-pointer text-white'/>,
+    title: "User"
+  },
+  {
+  icon: <BiSearch className='w-10 h-auto my-4 cursor-pointer text-white'/>,
+  title: "Search"
+  },
+  {
+  icon: <CiHeart className='w-10 h-auto my-4 cursor-pointer text-white'/>,
+  title: "Like"
+  },
+  {
+  icon:<AiOutlineShoppingCart className='w-10 h-auto my-4 cursor-pointer'/>,
+  title: "Cart"
+  }
+]
+
 export const category = [
   {
     id:1,
