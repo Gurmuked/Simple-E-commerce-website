@@ -18,7 +18,7 @@ const Navbar = () =>{
 
   return(
   <section className='w-[100%] py-6 '>
-    <div className='w-[100%] flex flex-row justify-between items-center'>
+    <div className='kee w-[100%] flex flex-row justify-between items-center'>
       <div  className='w-[20%] flex justify-start items-center ml-8'>
         <img src="../src/assets/logo.png" alt="Logo" className='mr-2 w-34 h-auto'/>
         <h4 className='font-poppins font-bold text-[26px] text-black'>Furniro</h4>
@@ -52,7 +52,7 @@ const Navbar = () =>{
 
 
 
-    <div className={`w-[100%] absolute top-0 right-0 left-0 bg-slate-800 bg-opacity-70 justify-start text-start items-center mx-auto ${
+    <div className={` guu w-[100%] absolute top-0 right-0 left-0 bg-slate-800 bg-opacity-70 justify-start text-start items-center mx-auto ${
           isMenuOpen ? 'block' : 'hidden'} `}>
       <div className='relative w-[100%] flex flex-col justify-center items-center leading-10 mt-10'>
         <ul className='w-[100%] flex flex-col justify-between items-center leading-10'>
