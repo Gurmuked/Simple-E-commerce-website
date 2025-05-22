@@ -1,3 +1,7 @@
+import { FaGlassMartiniAlt } from "react-icons/fa";
+import { LiaShippingFastSolid } from "react-icons/lia";
+import { MdSupportAgent } from "react-icons/md";
+import { HiOutlineBadgeCheck } from "react-icons/hi";
 
 export const category = [
   {
@@ -155,6 +159,33 @@ export const ShopProducts = [
     title: "Respira",
     subtitle: "outdoor bar table and stool",
     price: 2500.000,
+
+  }
+]
+
+export const delivery = [
+  {
+    img:<FaGlassMartiniAlt className='w-20 h-8 font-semibold'/>,
+    title: "High Quality",
+    subtitle: "crafted from top materials"
+
+  },
+    {
+    img:<HiOutlineBadgeCheck className='w-20 h-8 font-semibold'/>,
+    title: "Warranty Protection",
+    subtitle: "Over 2 years"
+
+  },
+    {
+    img:<LiaShippingFastSolid className='w-20 h-8 font-semibold'/>,
+    title: "Free Shipping",
+    subtitle: "Order over 150 $"
+
+  },
+    {
+    img:<MdSupportAgent className='w-20 h-8 font-semibold'/>,
+    title: "24 / 7 Support",
+    subtitle: "Dedicated support"
 
   }
 ]
