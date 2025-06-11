@@ -216,3 +216,22 @@ export const delivery = [
 
   }
 ]
+
+export const sofa = [
+    {
+      id : 1,
+      img:"../src/assets/sofa1.png"
+    },
+    {
+      id : 2,
+      img:"../src/assets/sofa2.png"
+    },
+    {
+      id : 3,
+      img:"../src/assets/sofa3.png"
+    },
+    {
+      id : 4,
+      img:"../src/assets/sofa4.png"
+    }
+]

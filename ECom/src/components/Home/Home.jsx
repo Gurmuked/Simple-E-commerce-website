@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Hero, Category, Products, Inspiration, Arrangement, Footer} from '../constants/index';
-import Hover from '../General/Hover'
+import Product from '../singleProdcut/Product';
 
 const Home = () => {
   return (
@@ -12,6 +12,7 @@ const Home = () => {
    <Inspiration />
    <Arrangement />
    <Footer />
+   <Product />
   </>
   )
 }
