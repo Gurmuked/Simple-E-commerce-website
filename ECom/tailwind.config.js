@@ -15,6 +15,8 @@ export default {
           dimWhite: "rgba(255, 255, 255, 0.7)",
           dimBlue: "rgba(9, 151, 124, 0.1)",
           customLinen: 'rgb(252, 248, 243)',
+          beige: "rgba(249, 241, 231, 1)",
+          linkColor: "rgba(249, 241, 231, 1)"
         },
       fontFamily: 
        {
