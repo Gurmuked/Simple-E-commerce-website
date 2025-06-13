@@ -24,7 +24,7 @@ export default {
        },
     },
      backgroundImage: {
-        'hero-pattern': "url('../src/assets/heroimg.jpg')",
+        'hero-pattern': "url('../src/assets/herop.png')",
         'hero-pattern-shop': "url('../src/assets/shopHero.png')",
       },
      screens: {

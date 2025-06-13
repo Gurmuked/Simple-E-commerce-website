@@ -7,10 +7,16 @@ import { BsPersonExclamation } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import { CiHeart } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import { RiMenu3Fill } from "react-icons/ri";
 
 
-export const nav = [ "Home", "Shop", "About", "Contact" ]
+export const nav = [
+  { label: "Home", to: "/" },
+  { label: "Shop", to: "/shop" },
+  { label: "About", to: "/about" },
+  { label: "Contact", to: "/contact" },
+  { label: "Product", to: "/product" }
+];
+
 export const navs =[
   {
     icon: <BsPersonExclamation className='w-10 h-auto my-4 cursor-pointer text-white'/>,

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Hero, Category, Products, Inspiration, Arrangement, Footer} from '../constants/index';
-import Product from '../singleProdcut/Product';
+import ComparisonHome from '../ProductComparison/ComparisonHome';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
    <Inspiration />
    <Arrangement />
    <Footer />
-   <Product />
+   <ComparisonHome />
   </>
   )
 }

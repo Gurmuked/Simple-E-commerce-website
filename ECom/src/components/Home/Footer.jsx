@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = ({border}) => (
   <section className={`w-full mx-auto flex flex-col justify-center items-start ${border !== "1" ? 'border-t-2 border-gray' : ""}`}>
-    <div className='w-[95%] mx-auto flex flex-row  flex-wrap justify-center items-start text-center mb-10 mt-6'>
+    <div className='w-[98%] mx-auto flex flex-row  flex-wrap justify-center items-start text-center mb-10 mt-6'>
       <div className='w-full xs:w-[40%] sm:w-[20%] pl-2 xs:pl-8 leading-10 mb-8 xs:mb-0 text-center xs:text-left'>
         <h4 className='font-poppins font-bold text-[24px] mb-8'>Funiro</h4>
         <p className='font-poppins font-normal text-[16px] text-gray-700'>

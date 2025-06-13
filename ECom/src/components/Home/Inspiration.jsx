@@ -62,17 +62,6 @@ const Inspiration = () => {
               </div>
             ))
           }
-           
-                   {/* Dot Pagination
-          <div className='flex justify-center mt-4'>
-            {Array.from({ length: totalPages }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentPage(index + 1)}
-                className={`w-4 h-4 mx-1 rounded-full ${currentPage === index + 1 ? 'bg-yellow-500' : 'bg-gray-300'}`}
-              />
-            ))}
-          </div> */}
           <div className='flex justify-center h-8 mt-4 mb-2'>
             <button
               onClick={handlePrevious}
