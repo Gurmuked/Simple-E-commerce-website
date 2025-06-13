@@ -1,6 +1,7 @@
 import Button from './Button';
 import Product from '../General/Product';
-import { product } from '../constants/Data'
+import { product } from '../constants/Data';
+
 
  const Products = () =>(
     <section className='w-[90%] mx-auto' >

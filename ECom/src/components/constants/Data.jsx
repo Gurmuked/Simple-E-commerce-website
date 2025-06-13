@@ -13,8 +13,7 @@ export const nav = [
   { label: "Home", to: "/" },
   { label: "Shop", to: "/shop" },
   { label: "About", to: "/about" },
-  { label: "Contact", to: "/contact" },
-  { label: "Product", to: "/product" }
+  { label: "Contact", to: "/contact" }
 ];
 
 export const navs =[

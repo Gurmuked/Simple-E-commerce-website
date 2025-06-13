@@ -38,7 +38,9 @@ const Navbar = () =>{
         <BsPersonExclamation className='w-6 h-auto mx-4 cursor-pointer'/>
         <BiSearch className='w-6 h-auto mx-4 cursor-pointer'/>
         <CiHeart className='w-6 h-auto mx-4 cursor-pointer'/>
+        <Link to="/compare2">
         <AiOutlineShoppingCart className='w-6 h-auto mx-4 cursor-pointer'/>
+        </Link>
       </div>
       <div className='w-[20%] xs:hidden flex justify-end items-center mr-4'>
         <RiMenu3Fill className='w-6 h-auto cursor-pointer' onClick={toggleMenu}/>

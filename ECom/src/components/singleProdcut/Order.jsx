@@ -1,6 +1,7 @@
 import React from 'react'
 import { sofa } from '../constants/Data';
 import sofa5 from '../../assets/sofa5.png';
+import { Link } from 'react-router-dom';
 
 const colorOptions = [
   { name: 'Purple', className: 'bg-purple-600' },
@@ -82,7 +83,9 @@ const Order = () => {
             <span className="text-xl px-2">+</span>
           </div>
           <span className="px-6 py-2 rounded border border-black font-medium bg-white text-black">Add To Cart</span>
+          <Link to='/compare1'>
           <span className="px-6 py-2 rounded border border-black font-medium bg-white text-black">+ Compare</span>
+          </Link>
         </div>
 
         <hr className="my-6" />

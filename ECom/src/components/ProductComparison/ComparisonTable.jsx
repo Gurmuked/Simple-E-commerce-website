@@ -1,21 +1,19 @@
   export const products = [
     {
       id: 1,
-      name: "Asgaard Sofa",
       image: "../src/assets/sofa1.png",
+      name: "Asgaard Sofa",
+      price: "Rs. 250,000.00",
       rating: 4.5,
       reviews: 12,
-      link: "/product",
-      addLabel: "Add to Cart",
     },
     {
       id: 2,
-      name: "Outback Sofa Set",
       image: "../src/assets/sofa2.png",
+      name: "Outback Sofa Set",
+      price: "Rs. 224,000.00",
       rating: 4.0,
       reviews: 8,
-      link: "/product",
-      addLabel: "Add to Cart",
     },
   ]
 
