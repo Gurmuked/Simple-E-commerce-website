@@ -32,8 +32,8 @@ const Footer = ({border}) => (
       <div className='w-full xs:w-[40%] sm:w-[30%] ml-0 xs:ml-5 sm:mr-5 pl-2'>
         <h4 className='font-poppins font-normal text-gray-600 text-[16px] mb-4'>Newsletter</h4>
         <div className='flex flex-col sm:flex-row'>
-          <input type="email" placeholder='Enter your email' className='border-b-4 border-black placeholder:text-[16px] pl-1 pr-6 mb-4 sm:mb-0'/>
-          <h4 className='font-poppins font-semibold text-[24px] sm:ml-4 border-b-4 border-solid border-black cursor-pointer'>Subscribe</h4>
+          <input type="email" placeholder='Enter your email' className='border-b-2 border-black placeholder:text-[16px] pl-1 pr-6 mb-4 sm:mb-0'/>
+          <h4 className='font-poppins font-semibold text-[24px] sm:ml-4 border-b-2 border-solid border-black cursor-pointer'>Subscribe</h4>
         </div>
       </div>
     </div>
