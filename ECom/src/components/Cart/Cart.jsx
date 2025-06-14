@@ -1,8 +1,7 @@
 import Navbar from '../Home/Navbar';
 import Hero from '../General/Hero';
 import Dilevery from '../Shop/Dilevery';
-import Footer from '../Home/Footer'
-import { Fragment } from 'react';
+import Footer from '../Home/Footer';
 import ProductDetail from './ProductDetail';
 import PriceCalculation from './PriceCalculation';
 
