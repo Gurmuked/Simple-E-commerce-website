@@ -18,7 +18,7 @@ const Product = ({products = []}) => (
               `}
               style={{ maxWidth: '400px' }}
               >
-                <Link to="/compare">
+                <Link to="/product">
                 <img src={img} alt={title} className="w-full h-[250px] rounded-lg"/>
                 </Link>
                 <div className='flex flex-col justify-left items-left h-[100px] w-full pl-4 mt-3'>

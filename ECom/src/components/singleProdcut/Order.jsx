@@ -83,7 +83,7 @@ const Order = () => {
             <span className="text-xl px-2">+</span>
           </div>
           <span className="px-6 py-2 rounded border border-black font-medium bg-white text-black">Add To Cart</span>
-          <Link to='/compare1'>
+          <Link to='/compare'>
           <span className="px-6 py-2 rounded border border-black font-medium bg-white text-black">+ Compare</span>
           </Link>
         </div>

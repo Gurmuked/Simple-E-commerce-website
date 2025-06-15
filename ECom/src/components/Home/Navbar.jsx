@@ -27,7 +27,7 @@ const Navbar = () =>{
         <ul className='w-[100%] flex justify-between items-center'>
           {
             nav.map((item, idx) => (
-              <li key={idx} className='font-poppins font-normal text-[20px] text-black cursor-pointer' >
+              <li key={idx} className='font-poppins font-normal text-[20px] text-black cursor-pointer hover:text-gray-500 active:text-green-800' >
                 <Link to={item.to || "/"}>{item.label || item}</Link>
               </li>
             ))
@@ -38,7 +38,7 @@ const Navbar = () =>{
         <BsPersonExclamation className='w-6 h-auto mx-4 cursor-pointer'/>
         <BiSearch className='w-6 h-auto mx-4 cursor-pointer'/>
         <CiHeart className='w-6 h-auto mx-4 cursor-pointer'/>
-        <Link to="/compare2">
+        <Link to="/cart">
         <AiOutlineShoppingCart className='w-6 h-auto mx-4 cursor-pointer'/>
         </Link>
       </div>
