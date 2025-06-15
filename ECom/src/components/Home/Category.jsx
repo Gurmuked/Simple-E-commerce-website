@@ -25,7 +25,7 @@ const Category = () =>(
                 alt={title}
                 className="
                   w-full
-                  h-[220px] xs:h-[260px] sm:h-[320px] md:h-[400px]
+                  h-[220px] xs:h-[260px] sm:h-[280px] md:h-[320px]
                   rounded-md mb-6
                 "
               />
